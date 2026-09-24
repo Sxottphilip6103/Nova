@@ -18,18 +18,6 @@ gen_icons_from_logo.py        script used to generate the icons (optional, not n
 
 All files sit flat in one folder on purpose (no subfolders) so the whole project can be uploaded from a phone in one go via GitHub's web "Upload files" page, which doesn't preserve folder structure from a mobile file picker.
 
-## Deploying from a phone (no computer needed)
-
-1. Unzip the project on your phone (tap the `.zip` in Files/Downloads — iOS and Android both extract it in place).
-2. In your phone's browser, go to **github.com**, sign in (or create a free account).
-3. Tap **+ → New repository**. Give it a name, set it to **Public**, and create it (skip adding a README).
-4. On the new repo's page, tap **Add file → Upload files**.
-5. Tap to browse, select **all the files** from the unzipped folder (all of them at once, no subfolders), and upload. Commit directly to `main`.
-6. Go to **Settings → Pages** in the repo. Under **Build and deployment → Source**, choose **Deploy from a branch**, pick `main` / `/ (root)`, and save.
-7. Wait about a minute, then open the URL GitHub gives you (`https://<username>.github.io/<repo>/`).
-8. On that page: Android/Chrome will offer to install it (or use the **Install app** button in Nova's drawer); on iPhone/Safari, tap **Share → Add to Home Screen**.
-
-
 
 ## Updating the app later
 
